@@ -17,4 +17,4 @@ class Post(models.Model):
         self.save()
 
     def __str__(self):
-        return self.title
+        return f"Post with title {self.title} created by {self.author}"
